@@ -9,4 +9,3 @@ def my_each(array)
     puts "block does not exist"
   end
 end
-
