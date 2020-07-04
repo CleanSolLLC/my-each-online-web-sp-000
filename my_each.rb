@@ -7,6 +7,6 @@ def my_each(array)
     end
     array
   else
-    puts "block does not exist"
+    "block does not exist"
   end
 end
