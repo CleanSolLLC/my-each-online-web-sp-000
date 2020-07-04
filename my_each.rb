@@ -1,6 +1,6 @@
 def my_each(array)
-      yield 
-  
+      yield
+
     end
   else
     puts "block does not exist"
