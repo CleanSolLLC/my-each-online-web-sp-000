@@ -1,5 +1,8 @@
 def my_each(array)
-  yield
+      yield 
+  
+    end
+  else
+    puts "block does not exist"
+  end
 end
-
-my_each(array)
