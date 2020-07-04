@@ -1,3 +1,13 @@
 def my_each(array)
-  # code here
+  if block_given?
+    i=0
+    while i < array.length
+      yield
+      i+=1
+    end
+  else
+    puts "block does not exist"
+  end
 end
+
+my_each(array)
